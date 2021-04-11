@@ -15,14 +15,15 @@ body {
     align-items: center;
     height: 100vh;
     color: white;
-    background-color: black;
+    background-color: papayawhip;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 blockquote {
     font-size: 64px;
-    text-shadow: 0 0 10px black;
+    text-align: center;
+    text-shadow: 0 0 10px floralwhite;
     line-height: 1.3em;
     padding: 2em;
     background-color: rgba(0, 0, 0, 0.4);
