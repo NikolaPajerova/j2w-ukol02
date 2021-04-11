@@ -24,7 +24,7 @@ public class CitatKontroler {
 
         ModelAndView vysledek = new ModelAndView("citat");
         vysledek.addObject("text", nahodnyCitat);
-        vysledek.addObject("obrazek", String.format("/images/image_%d.jpg",nahodneCislo2));
+        vysledek.addObject("obrazek", String.format("background-image: url(/images/image_%d.jpg)",nahodneCislo2));
         return vysledek;
     }
 }
